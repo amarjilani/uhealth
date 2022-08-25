@@ -1,0 +1,170 @@
+/*  ===== MOBILE styles (reside at the top and are inherited by all devices) ===== */
+/*  ===== See tablet, desktop, and print @media queries at the bottom. */
+                    
+@import url('https://fonts.googleapis.com/css2?family=Archivo&family=Staatliches&display=swap');
+
+@import '../node_modules/modern-normalize/modern-normalize.css';
+
+
+/*   ----- Variables  -----  */
+/* :root {
+  --custom-color-name:;
+  --custom-embellishment-name:;
+} */
+
+main {
+  padding: 10px;
+}
+
+/*  ----- Navigation ----- Override text links for navigation only.  */
+nav {
+  text-align: center;
+
+}
+nav a {
+  background-color: transparent;
+  padding: 10px;
+  font-weight:bold;
+  font-size: 18px;
+  text-decoration:wavy;
+  vertical-align: middle;
+  margin: 5px;
+  border: 0;
+  
+}
+nav a:hover {
+  padding: 10px;
+  margin: 5px;
+  border: 0; 
+}
+
+
+/*  ----- Page layout blocks -----  */
+header {
+  background-color: rgb(181, 255, 162);
+  
+}
+.top {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+/*  -----  Typography  ----- */
+p {
+  text-align: center;
+  font-size: 18px;
+}
+
+h1 {
+  font-family: 'Staatliches', cursive;
+  font-size: 50px;
+}
+h2 {
+  text-align: center;
+}
+
+/* FORM */
+fieldset {
+  text-align: center;
+  border:5px solid rgb(181, 255, 162);
+
+}
+
+label {
+  display:block;
+  margin:15px;
+  font-weight: bold;
+  font-size:18px;
+}
+input {
+  padding:4px;
+  font-size:16px;
+  
+}
+button {
+  padding:5px;
+  background-color: rgb(238, 103, 13);
+  color: whitesmoke;
+  border:1px solid gray;
+  border-radius:3px;
+  font-size:16px;
+}
+button:hover {
+  background-color: rgb(247, 203, 162);
+  color: rgb(0, 0, 0);
+}
+
+::placeholder{
+  color:gray;
+}
+
+
+#submit {
+  background-color:rgb(181, 255, 162);
+  border:0px;
+  color:black;
+}
+
+#submit:hover {
+  background-color:rgb(198, 162, 255);
+}
+
+.navbar-light{
+  background-color: rgb(181, 255, 162);
+}
+
+#nav {
+  color:rgb(28, 119, 255);
+}
+
+#nav:hover{
+  font-size: 17px;
+  color:rgb(86, 153, 255)
+}
+
+thead {
+  background-color: rgb(181, 255, 162);
+  text-align: center;
+}
+
+td{
+  text-align: center;
+}
+
+tr:hover {
+  background-color: rgb(245, 240, 235);
+}
+
+.editButton {
+  text-align: center;
+  font-size: 20px;
+}
+
+.editButton:hover {
+  color: rgb(61, 189, 178);
+}
+
+.deleteButton {
+  text-align: center;
+  font-size: 20px;
+}
+
+.deleteButton:hover {
+  color: red;
+}
+
+
+
+@keyframes App-logo {}
+
+/*   ===== TABLET  media query overrides mobile styles ===== */
+@media all and (min-width: 600px) {}
+
+/*   ===== DESKTOP  media query overrides mobile and tablet styles ===== */
+@media all and (min-width: 1080px) {}
+
+/*   ===== PRINT  media query overrides previous styles =====  */
+@media print {}
+
+
