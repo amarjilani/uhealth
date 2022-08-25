@@ -17,3 +17,9 @@ Health and wellness web application created using the MERN stack!
 ### Built With:
 [![My Skills](https://skills.thijs.gg/icons?i=nodejs,mongodb,react,express,javascript,html,css&theme=dark)](https://skills.thijs.gg)
 
+### Demo Video 
+  This video outlines how you can use the uHealth web app! 
+  
+
+https://user-images.githubusercontent.com/77746571/186557531-8dad926d-9cff-44f2-9571-135a9241813a.mp4
+
