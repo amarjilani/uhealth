@@ -12,10 +12,10 @@ Health and wellness web application created using the MERN stack!
 ## About The Project
 
 <img src="demo/demo_s.png" alt="Screenshot" width="800">
-<p>uHealth is a web application that provides a simple interface for easy tracking of your workouts and meals! 
+<p>uHealth is a web application that provides a simple interface for easy tracking of your workouts and meals! The frontend was developed using React and Node.js, with Bootstrap styling. The backend was developed using Express and MongoDB as a database. 
 
 ### Built With:
-[![My Skills](https://skills.thijs.gg/icons?i=nodejs,mongodb,react,express,javascript,html,css&theme=dark)](https://skills.thijs.gg)
+[![My Skills](https://skills.thijs.gg/icons?i=nodejs,mongodb,react,express,javascript,html,css,bootstrap&theme=dark)](https://skills.thijs.gg)
 
 ### Demo Video 
   This video outlines how you can use the uHealth web app! 
